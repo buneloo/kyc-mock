@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="{{ url_for('login') }}" method="POST">
+        <button type="submit">Login</button>
+    </form>
+    <div>
+        <img id="video_feed" src="{{ url_for('video_feed') }}">
+    </div>
+</body>
+</html>
